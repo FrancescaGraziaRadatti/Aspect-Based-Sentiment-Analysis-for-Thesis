@@ -1,0 +1,43 @@
+# "Aspect-based Sentiment Analysis for Ecommerce Product Reviews" 
+
+Researchers, from last few years, begun to study Sentiment Analysis. Sentiment Analysis
+(also known as Opinion Mining) enables to study people’s sentiment, opinion, emotions
+and behaviour with respect to some entities (product, service, people, event and so on).
+The following dissertation aims to deeply describe Text Mining and Sentiment Analysis
+scope and techniques widespread to perform it, underlining the crucial role they play in
+many research fields nowadays. In presenting the topic, it has been put particular attention
+on finest-grained level: the Aspect Level Sentiment Analysis. In order to demonstrate
+concepts exposed, it has been performed an analysis on Ecommerce Product Reviews in
+order to practically demonstrate concepts.
+The first chapter is focused on the Sentiment Analysis strict definition and Opinion
+Mining Problem. In order to claim how Opinion Mining Problem could be solved, there
+are spelt out factors involved (opinion, sentiment, entity, time and opinion holder) and
+computation levels at which it can be performed (Document Level, Sentence Level and
+Aspect Level). The first chapter ends focusing on the Aspect-level Sentiment Analysis,
+that is the core of the second chapter and of the entire dissertation. The Aspect-Level
+Sentiment Analysis tasks, basing on aim pursued and data to analyse, could be related to
+Aspect (or term) Extraction, Entity Extraction or Aspect-Entity Extraction.
+As anticipated, the second chapter spells out Aspect-level Sentiment Analysis and model
+categories to perform it, which differ for many factors: computational time, size of the
+dataset, type of data, aim to pursue and grade of automated processes involved. Categories
+gather Language Rule Models, Sequential Models, Topic Methods, Deep Learning
+Methods and Hybrid Methods. The chapter deeply delineates each category providing
+advantages and disadvantages of models belong to each category and there are compare
+two models belonging to two categories: the Conditional Random Fields Model (CRF)
+belonging to the Sequential Models category and the Bidirectional Gated Recurrent Units
+Model (Bi-GRU) belonging to the Deep Learning Models Category. The comparison
+shows that using deep learning models is more efficient than using the other category
+models, thanks to the possibility to automatize processes in the first case. In the final part
+of the second chapter it is introduced the combination of the two models, deriving the so
+called Bi-GRU-CRF Model. The Bi-GRU-CRF Model is an hybrid model that exploit the advantages of Bi-GRU Model for the first aspect extraction phase and the advantages of
+the CRF model for the second phase devoted to sentiment classification.
+Finally, the third chapter bears to practically demonstrate formulas and concepts
+introduced in the previous chapters. To reach the aim, it has been carried out an
+
+experiment on Amazon Product Reviews in Python. After data cleaning and pre-
+processing activities, it has been trained the Bi-GRU Model and carried out predictions.
+
+Bi-GRU Training, test and prediction phases have been compared with another Neural
+Network Model, the Bidirectional Long Short Term Memory Model (Bi-LSTM).
+Comparing the two models output a very interesting insight: accuracy of the model is not
+enough to say that a model performs better than another one.
